@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins";
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    align-items: center;
+  }
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  .container{
+    width: 80vw;
+    margin: 0px auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .judul-konten{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 60px;
+  }
+  .box{
+    width: 610px;
+    height: 329px;
+    background-color: #DBDBDB;
+    border-radius: 30px;
+  }
+  .deskripsi-box{
+    position: relative;
+    bottom: 48px;
+  }
+  .deskripsi-gambar{
+    width: 219px;
+    height: 219px;
+    position: relative;
+  }
+  .deskripsi-profesi{
+    width: 475px;
+    height: 56px;
+    background-color: #FEEEE2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 22px;
+  }
+  .deskripsi-teks{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .button-iya{
+    width: 157px;
+    height: 41px;
+    background-color: #6FD240;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .button-iya:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  .button-tidak{
+    width: 157px;
+    height: 41px;
+    background-color: #E12E2E;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .button-tidak:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+   .animation-wobble{
+    animation: wobble 0.5s;
+  }
+ @keyframes wobble {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-5px) rotate(-3deg);
+    }
+    75% {
+        transform: translateX(5px) rotate(3deg);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+} 
+  .animation-wobble{
+    animation: wobble 0.5s;
+  }
+  @keyframes wobble {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(-5px) rotate(-3deg);
+    }
+    75% {
+      transform: translateX(5px) rotate(3deg);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
